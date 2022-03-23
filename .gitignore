@@ -1,0 +1,16 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Dependencies
+/node_modules
+
+# Misc
+.gitkeep
+.idea
+.DS_Store
+
+npm-debug.log*
+
+*.orig
+
+# Project specific
+/public

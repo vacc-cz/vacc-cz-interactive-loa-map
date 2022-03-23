@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interactive Map of LoA – VACC-CZ.org</title>
+
+    <meta name="description" content="Interactive Map of Letter of VACC-CZ" />
+  </head>
+  <style id="main">
+    html {
+      font-size: 87.15%;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font: 1rem/1.5 Raleway, Helvetica, Roboto, Arial, sans-serif;
+      background-color: #e8ecee;
+    }
+
+    .application {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+
+    .loader {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-19px, -19px);
+      -ms-transform: translate(-19px, -19px);
+      transform: translate(-19px, -19px);
+    }
+  </style>
+
+  <body>
+    <div class="application" id="application">
+      <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#194f91" class="loader">
+        <g fill="none" fill-rule="evenodd" stroke-width="2">
+          <circle cx="22" cy="22" r="1">
+            <animate attributeName="r"
+                     begin="0s" dur="1.8s"
+                     values="1; 20"
+                     calcMode="spline"
+                     keyTimes="0; 1"
+                     keySplines="0.165, 0.84, 0.44, 1"
+                     repeatCount="indefinite" />
+            <animate attributeName="stroke-opacity"
+                     begin="0s" dur="1.8s"
+                     values="1; 0"
+                     calcMode="spline"
+                     keyTimes="0; 1"
+                     keySplines="0.3, 0.61, 0.355, 1"
+                     repeatCount="indefinite" />
+          </circle>
+          <circle cx="22" cy="22" r="1">
+            <animate attributeName="r"
+                     begin="-0.9s" dur="1.8s"
+                     values="1; 20"
+                     calcMode="spline"
+                     keyTimes="0; 1"
+                     keySplines="0.165, 0.84, 0.44, 1"
+                     repeatCount="indefinite" />
+            <animate attributeName="stroke-opacity"
+                     begin="-0.9s" dur="1.8s"
+                     values="1; 0"
+                     calcMode="spline"
+                     keyTimes="0; 1"
+                     keySplines="0.3, 0.61, 0.355, 1"
+                     repeatCount="indefinite" />
+          </circle>
+        </g>
+      </svg>
+    </div>
+    <div id="app-modal-portal">
+    </div>
+  </body>
+</html>

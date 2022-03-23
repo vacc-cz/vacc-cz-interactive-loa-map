@@ -1,0 +1,5 @@
+# Supported browsers
+
+defaults
+not ie > 1
+not ie_mob > 1
