@@ -1,0 +1,15 @@
+.point {
+  stroke: gray;
+  stroke-width: 1px;
+  fill: orange;
+}
+
+.point:hover,
+.point:focus {
+  fill: orangered;
+  cursor: pointer;
+}
+
+.pointLabel {
+  text-anchor: end;
+}

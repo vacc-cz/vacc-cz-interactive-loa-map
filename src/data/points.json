@@ -1,0 +1,2129 @@
+[
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EPPO",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDN EDDM",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "other LKAA",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO EDDC",
+            "levelDown": 220,
+            "levelBellow": 260
+          }
+        ],
+        "note": "ACC Warszawa is responsible for the provision of separation between traffic converging after TOMTI and RASAN."
+      }
+    },
+    "latitude": "N051.00.49.510",
+    "longitude": "E015.05.40.801",
+    "name": "RASAN",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKKV",
+            "level": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO",
+            "levelUp": 290,
+            "levelAbove": 270
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDDC",
+            "levelUp": 190,
+            "levelAbove": 170
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPPO",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR",
+            "level": 190
+          }
+        ]
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR",
+            "level": 260,
+            "note": "rlsd↑ after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDN EDDM",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "other LKAA",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO EDDC",
+            "levelDown": 220,
+            "levelBellow": 260
+          }
+        ],
+        "note": "ACC Warszawa is responsible for the provision of separation between traffic converging after TOMTI and RASAN."
+      }
+    },
+    "latitude": "N050.57.11.001",
+    "longitude": "E015.17.35.998",
+    "name": "TOMTI",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKKV",
+            "level": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO",
+            "levelUp": 290,
+            "levelAbove": 270,
+            "note": "rlsd ↑300 after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPPO",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR",
+            "level": 190
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N050.47.42.989",
+    "longitude": "E015.22.01.520",
+    "name": "LAGAR"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": {
+        "note": "ACC Praha is responsible for separation of traffic proceeding via PADKA and BAVOK and traffic via REGLI and DESEN."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR",
+            "levelUp": 270,
+            "levelAbove": 250
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKTB LKKU LKNA",
+            "level": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWW LZBB",
+            "level": 350
+          }
+        ],
+        "note": "Flights via DESEN at FL300 or below shall be transferred to SOUTH LOWER sector."
+      }
+    },
+    "latitude": "N050.16.12.370",
+    "longitude": "E017.31.01.020",
+    "name": "DESEN",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EPKK EPKT",
+            "levelUp": 280
+          }
+        ]
+      }
+    },
+    "latitude": "N050.12.35.740",
+    "longitude": "E017.30.42.890",
+    "name": "UTEVO"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EPKK",
+            "level": 280
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPKT",
+            "levelUp": 240,
+            "levelAbove": 200,
+            "note": "rlsd ↑280 after ToC"
+          }
+        ]
+      }
+    },
+    "latitude": "N050.12.34.131",
+    "longitude": "E017.44.52.551",
+    "name": "ADADO",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKMT",
+            "levelUp": 110,
+            "levelAbove": 100
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPPO",
+            "level": 360
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR",
+            "level": 200
+          }
+        ],
+        "note": "ACC Praha is responsible for separation of traffic proceeding via PADKA and BAVOK and traffic via REGLI and DESEN."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR",
+            "level": 270,
+            "note": "PEKOT 250A"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWW LZBB",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 120
+          }
+        ]
+      }
+    },
+    "latitude": "N050.01.49.000",
+    "longitude": "E017.59.44.001",
+    "name": "REGLI"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKMT",
+            "levelUp": 110,
+            "levelAbove": 100
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD LKTB LKCV",
+            "levelUp": 330,
+            "levelAbove": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKT",
+            "levelDown": 150,
+            "levelBellow": 230,
+            "note": "rlsd ↓130 after ToC"
+          }
+        ],
+        "note": "ACC Praha is responsible for separation of traffic proceeding via PADKA and BAVOK and traffic via REGLI and DESEN."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EPKT",
+            "level": 240,
+            "note": "rlsd ↑280 after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 120
+          }
+        ]
+      }
+    },
+    "latitude": "N050.00.10.000",
+    "longitude": "E018.11.43.000",
+    "name": "BAVOK"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKMT",
+            "levelUp": 110,
+            "levelAbove": 100
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD LKTB LKCV",
+            "levelUp": 330,
+            "levelAbove": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPRZ EPLB",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKT",
+            "levelDown": 150,
+            "levelBellow": 230,
+            "note": "rlsd ↓130 after ToC"
+          }
+        ],
+        "note": "ACC Praha is responsible for separation of traffic proceeding via PADKA and BAVOK and traffic via REGLI and DESEN."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 120
+          }
+        ]
+      }
+    },
+    "latitude": "N049.56.01.978",
+    "longitude": "E018.16.59.768",
+    "name": "PADKA"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EPKK EPKT",
+            "levelUp": 240,
+            "levelAbove": 130,
+            "note": "rlsd ↑280 after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWW LZBB",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKTB LKKU LKNA",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 120
+          }
+        ]
+      }
+    },
+    "latitude": "N049.50.50.978",
+    "longitude": "E018.34.22.209",
+    "name": "TUSIN"
+  },
+  {
+    "coordination": {
+      "fir": "EPWW",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKMT",
+            "levelUp": 110,
+            "levelAbove": 100
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKK",
+            "levelDown": 150,
+            "levelBellow": 190,
+            "note": "rlsd ↓130 after ToC"
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.41.40.790",
+    "longitude": "E018.42.32.389",
+    "name": "NETIR"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKMT *",
+            "levelMax": 110,
+            "note": "rlsd ↑120 after ToC"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD",
+            "levelMax": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR EPKK EPKT",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZKZ LHTL LHKE LHBP",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZTT LZSL LHPA LHPR",
+            "levelMax": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZZI */**",
+            "levelMax": 100
+          }
+        ],
+        "note": "* ACC Bratislava is responsible for coordination with LZZI\n** Departures are subject of approval request between APP Ostrava and ACC Bratislava."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LZZI",
+            "levelMax": 120
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZSL",
+            "levelMax": 280
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZTT LZKZ",
+            "levelMax": 340
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LHCC",
+            "note": "any even FL (default 340)"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "levelMax": 120
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR EPKT EPKK",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA",
+            "levelMax": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LZBB)",
+            "levelMax": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LHCC) LKPD",
+            "levelMax": 300
+          }
+        ]
+      }
+    },
+    "latitude": "N049.23.36.790",
+    "longitude": "E018.26.50.279",
+    "name": "BILNA"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKTB",
+            "levelMax": 210
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD",
+            "levelMax": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR EPKK EPKT",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZKZ LHTL LHKE LHBP",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZTT LZSL LHPA LHPR",
+            "levelMax": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZZI */**",
+            "levelMax": 100
+          }
+        ],
+        "note": "* ACC Bratislava is responsible for coordination with LZZI\n** Departures are subject of approval request between APP Ostrava and ACC Bratislava."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LZZI",
+            "levelMax": 120
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZSL",
+            "levelMax": 280
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZTT LZKZ",
+            "levelMax": 340
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LHCC",
+            "note": "any even FL (default 340)"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKTB",
+            "levelDown": 220,
+            "levelBellow": 240
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR EPKT EPKK",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LZBB)",
+            "levelMax": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LHCC) LKPD",
+            "levelMax": 300
+          }
+        ]
+      }
+    },
+    "latitude": "N049.14.45.628",
+    "longitude": "E018.09.56.581",
+    "name": "MAKAL"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKTB",
+            "levelMax": 210
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD",
+            "levelMax": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR EPKK EPKT",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZKZ LHTL LHKE LHBP",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZTT LZSL LHPA LHPR",
+            "levelMax": 290
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.07.37.610",
+    "longitude": "E018.06.39.419",
+    "name": "ROMIS"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD",
+            "levelMax": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR EPKK EPKT",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZKZ LHTL LHKE LHBP",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZTT LZSL LHPA LHPR",
+            "levelMax": 290
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.01.28.700",
+    "longitude": "E017.57.00.831",
+    "name": "VALPI"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LZSL",
+            "levelMax": 280
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZTT LZKZ",
+            "levelMax": 340
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LHCC",
+            "note": "any even FL (default 340)"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR EPKT EPKK",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LZBB)",
+            "levelMax": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LHCC) LKPD",
+            "levelMax": 300
+          }
+        ],
+        "note": "ACC Bratislava is responsible for the provision of separation between traffic converging after MAVOR and LALES."
+      }
+    },
+    "latitude": "N048.51.54.619",
+    "longitude": "E017.42.34.250",
+    "name": "LALES",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKKU *",
+            "levelMax": 90
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD",
+            "levelMax": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR EPKK EPKT",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZKZ LHTL LHKE LHBP",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZTT LZSL LHPA LHPR",
+            "levelMax": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZIB",
+            "levelDown": 170,
+            "levelBellow": 210
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZPP LZMC **",
+            "levelMax": 130
+          }
+        ],
+        "note": "* Departures are subject of approval request between APP Brno and APP Štefánik.\n** Traffic to LZPP, LZMC maintaining FL130 shall be sent to APP Štefánik."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LZIB LZPP LZMC",
+            "levelUp": 160,
+            "levelAbove": 130
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZSL",
+            "levelMax": 280
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZTT LZKZ",
+            "levelMax": 340
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LHCC",
+            "note": "any even FL (default 340)"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR EPKT EPKK",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LZBB)",
+            "levelMax": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LHCC) LKPD",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKTB",
+            "levelMax": 120
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKTB (if RWY27 in use)",
+            "levelDown": 100
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKKU",
+            "levelMax": 100
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "levelMax": 220
+          }
+        ],
+        "note": "ACC Bratislava is responsible for the provision of separation between traffic converging after MAVOR and LALES."
+      }
+    },
+    "latitude": "N048.49.17.018",
+    "longitude": "E017.32.15.010",
+    "name": "MAVOR",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKTB *",
+            "levelMax": 120
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD",
+            "levelMax": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR EPKK EPKT",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZKZ LHTL LHKE LHBP",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZTT LZSL LHPA LHPR",
+            "levelMax": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZIB",
+            "levelDown": 170,
+            "levelBellow": 210
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZPP LZMC **",
+            "levelMax": 130
+          }
+        ],
+        "note": "ACC Praha is responsible for the provision of separation between traffic converging after PEPIK and ODNEM.\n* Departures with RFL 125 or above shall be transferred to ACC Bratislava, unless otherwise requested by APP Štefánik.\n** Traffic to LZPP, LZMC maintaining FL130 shall be sent to APP Štefánik."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LZIB LZPP LZMC",
+            "levelUp": 160,
+            "levelAbove": 130
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZSL",
+            "levelMax": 280
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LZTT LZKZ",
+            "levelMax": 340
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LHCC",
+            "note": "any even FL (default 340)"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPWR EPKT EPKK",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA",
+            "levelMax": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LZBB)",
+            "levelMax": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKAA (ADEP LHCC) LKPD",
+            "levelMax": 300
+          }
+        ]
+      }
+    },
+    "latitude": "N048.51.11.520",
+    "longitude": "E017.10.04.238",
+    "name": "ODNEM"
+  },
+  {
+    "coordination": {
+      "fir": "LZBB",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPD",
+            "levelMax": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EPWR EPKK EPKT",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZKZ LHTL LHKE LHBP",
+            "levelMax": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZTT LZSL LHPA LHPR",
+            "levelMax": 290
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZIB",
+            "levelDown": 170,
+            "levelBellow": 210
+          }
+        ],
+        "note": "ACC Praha is responsible for the provision of separation between traffic converging after PEPIK and ODNEM."
+      }
+    },
+    "latitude": "N048.46.58.000",
+    "longitude": "E017.04.45.001",
+    "name": "PEPIK",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LOWW",
+            "levelUp": 230,
+            "levelAbove": 170,
+            "note": "rlsd ↑240 after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDP",
+            "levelMax": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC *",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKK EPKT EPWR",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKKV *",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 270
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKTB LKKU",
+            "levelDown": 100,
+            "levelBellow": 120
+          }
+        ],
+        "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
+      }
+    },
+    "latitude": "N048.43.43.640",
+    "longitude": "E016.47.21.098",
+    "name": "LEDVA"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKTB LKKU",
+            "level": 120
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKMT",
+            "levelUp": 300,
+            "levelAbove": 250
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWL LOWG",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWW *",
+            "levelDown": 130,
+            "levelBellow": 170
+          }
+        ],
+        "note": "* Released for right turn after ToC"
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N048.47.05.078",
+    "longitude": "E016.37.15.610",
+    "name": "MIKOV"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDDP",
+            "levelMax": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC *",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKK EPKT EPWR",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKKV *",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 270
+          }
+        ],
+        "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
+      }
+    },
+    "latitude": "N048.46.10.599",
+    "longitude": "E016.12.18.208",
+    "name": "NAVTI"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDDP",
+            "levelMax": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC *",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKK EPKT EPWR",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKKV *",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 270
+          }
+        ],
+        "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
+      }
+    },
+    "latitude": "N048.52.28.981",
+    "longitude": "E015.50.05.989",
+    "name": "LOKVU",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDDM EDMx LOWS",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWL LOWG",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LZIB",
+            "level": 230
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWW",
+            "level": 150
+          }
+        ]
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LOWW (dest LKPR LKKB LKVO)",
+            "level": 180
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LOWW (dest other)",
+            "levelUp": 300,
+            "levelAbove": 200
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDP",
+            "levelMax": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC *",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKK EPKT EPWR",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKKV *",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 270
+          }
+        ],
+        "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
+      }
+    },
+    "latitude": "N048.53.17.181",
+    "longitude": "E015.36.56.840",
+    "name": "LANUX"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO LKPD",
+            "levelUp": 250,
+            "levelAbove": 290,
+            "note": "rlsd ↑300 after ToC"
+          }
+        ]
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDDP",
+            "levelMax": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC *",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EPKK EPKT EPWR",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKKV *",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMT",
+            "level": 270
+          }
+        ],
+        "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
+      }
+    },
+    "latitude": "N048.53.34.490",
+    "longitude": "E015.23.13.660",
+    "name": "PISAM"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO LKPD",
+            "levelUp": 250,
+            "levelAbove": 290,
+            "note": "rlsd ↑300 after ToC"
+          }
+        ]
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LZIB",
+            "levelUp": 340,
+            "levelAbove": 310
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LOWW *",
+            "levelUp": 300,
+            "levelAbove": 250
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKKV *",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV",
+            "level": 280
+          }
+        ],
+        "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
+      }
+    },
+    "latitude": "N048.53.52.879",
+    "longitude": "E015.06.58.899",
+    "name": "DITIS"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "LOWL",
+            "levelDown": 170,
+            "levelBellow": 210
+          }
+        ],
+        "note": "ACC Praha is responsible for the provision of the separation between traffic converging after BUDEX and LUPEV."
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.00.35.020",
+    "longitude": "E014.33.36.028",
+    "name": "LUPEV",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LOWS",
+            "levelUp": 300,
+            "levelAbove": 250
+          }
+        ]
+      }
+    },
+    "latitude": "N049.02.05.690",
+    "longitude": "E014.28.35.338",
+    "name": "UPEGU"
+  },
+  {
+    "coordination": {
+      "fir": "LOVV",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "LZIB",
+            "level": 330
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWW *",
+            "levelDown": 310,
+            "levelBellow": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWS",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWL",
+            "levelDown": 170,
+            "levelBellow": 210
+          }
+        ],
+        "note": "ACC Praha is responsible for the provision of the separation between traffic converging after BUDEX and LUPEV.\n* Aircraft arriving LOWW via BUDEX shall be transferred directly to the unit covering the ACC N1 sector."
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": " LKPR LKKB LKVO LKKV LKMH",
+            "level": 250
+          }
+        ]
+      }
+    },
+    "latitude": "N048.56.53.980",
+    "longitude": "E014.20.09.700",
+    "name": "BUDEX"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDMM FIR LOWL LOWS",
+            "levelUp": 300,
+            "levelAbove": 270
+          }
+        ],
+        "note": "UAC Karlsruhe is responsible for the provision of separation between same level crossing traffic via LULAR and via BEPAS / DOMAL."
+      }
+    },
+    "latitude": "N048.53.54.290",
+    "longitude": "E013.30.34.768",
+    "name": "BEPAS"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": " EDMM FIR LOWS",
+            "level": 250
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.00.56.430",
+    "longitude": "E013.30.46.069",
+    "name": "BAVRI"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKPD LKCV LKHK LKMH",
+            "level": 270,
+            "note": "rlsd ↓  north of L610"
+          }
+        ],
+        "note": "UAC Karlsruhe is responsible for the provision of separation between same level crossing traffic via LULAR and via BEPAS / DOMAL."
+      }
+    },
+    "latitude": "N049.07.09.001",
+    "longitude": "E013.23.39.998",
+    "name": "DOLUP"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO LKKV",
+            "levelUp": 300,
+            "levelAbove": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWI",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDMM FIR",
+            "level": 250
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LOWL",
+            "level": 210
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDMS EDMV",
+            "level": 100
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.14.28.528",
+    "longitude": "E013.15.56.109",
+    "name": "RUDAP"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDMM FIR LOWS",
+            "level": 250
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDMS EDMV",
+            "level": 100
+          },
+          {
+            "text": "All flights via NIRGO",
+            "note": "rlsd ↓ after ToC"
+          }
+        ],
+        "note": "* By applying this release within ARBAX window (see section 2.3) ACC München assumes the responsibility for separation between traffic via VESUB/NIRGO/RUDAP. ACC Praha is responsible for separation of the released traffic with all traffic unknown to ACC München (e.g. Z/UZ37)."
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.19.51.398",
+    "longitude": "E013.07.55.988",
+    "name": "NIRGO"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDMM FIR LOWS",
+            "level": 250
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDMS EDMV",
+            "level": 100
+          },
+          {
+            "text": "All flights via NIRGO",
+            "note": "rlsd ↓ after ToC"
+          }
+        ],
+        "note": "* By applying this release within ARBAX window (see section 2.3) ACC München assumes the responsibility for separation between traffic via VESUB/NIRGO/RUDAP. ACC Praha is responsible for separation of the released traffic with all traffic unknown to ACC München (e.g. Z/UZ37)."
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N049.25.09.328",
+    "longitude": "E012.59.50.701",
+    "name": "VESUB"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDMM FIR",
+            "levelUp": 300,
+            "levelAbove": 280,
+            "note": "rlsd ↑310 passing RUDNO or abeam"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LOWL LOWS",
+            "level": 300,
+            "note": "rlsd ↑310 passing RUDNO or abeam"
+          }
+        ]
+      }
+    },
+    "latitude": "N049.26.09.999",
+    "longitude": "E012.39.24.001",
+    "name": "TIVDA"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDMM FIR",
+            "levelUp": 300,
+            "levelAbove": 280,
+            "note": "rlsd ↑310 passing RUDNO or abeam"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LOWL LOWS",
+            "level": 300,
+            "note": "rlsd ↑310 passing RUDNO or abeam"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC EDAB",
+            "level": 280
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKPD LKCV LKHK LKMH",
+            "level": 220
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKKV",
+            "level": 180
+          }
+        ]
+      }
+    },
+    "latitude": "N049.34.04.501",
+    "longitude": "E012.36.52.210",
+    "name": "AGNAV"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "text": "ALL Flights",
+            "levelAbove": 310
+          }
+        ],
+        "note": "ACC München / UAC Karlsruhe is responsible for the provision of separation between traffic converging after VEMUT and ENITA."
+      }
+    },
+    "latitude": "N049.42.07.689",
+    "longitude": "E012.28.25.989",
+    "name": "ENITA"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDDN EDQC",
+            "level": 270
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDQM",
+            "level": 170
+          }
+        ],
+        "note": "ACC München / UAC Karlsruhe is responsible for the provision of separation between traffic converging after VEMUT and ENITA."
+      }
+    },
+    "latitude": "N049.48.38.678",
+    "longitude": "E012.27.40.489",
+    "name": "VEMUT"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDDN EDQC",
+            "level": 230
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDQM",
+            "level": 170
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKPD LKCV LKHK LKMH",
+            "level": 250,
+            "note": "rlsd ↓200 after ToC"
+          }
+        ]
+      }
+    },
+    "latitude": "N049.56.14.218",
+    "longitude": "E012.20.38.399",
+    "name": "ODOMO"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO",
+            "level": 280,
+            "note": "rlsd ↑300 after ToC"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKKV",
+            "level": 120
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDN ETHN ETIN EDQ*",
+            "level": 180
+          },
+          {
+            "text": "Westbound flights at FL290-310",
+            "note": "ToC before OKG RL"
+          }
+        ]
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDDN EDQC",
+            "level": 270
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDQM",
+            "level": 170
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKKV",
+            "level": 170
+          }
+        ]
+      }
+    },
+    "latitude": "N050.03.54.529",
+    "longitude": "E012.24.20.660",
+    "name": "OKG"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO",
+            "level": 280,
+            "note": "rlsd ↑300 after ToC"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKKV",
+            "level": 120
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDF",
+            "level": 340
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "ETAR EDFE EDFZ ETID ETOU EDGS",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": " EDDS EDTY",
+            "level": 300
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N050.11.25.760",
+    "longitude": "E012.20.19.100",
+    "name": "RAPET"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO",
+            "level": 280,
+            "note": "rlsd ↑300 after ToC"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKKV",
+            "level": 120
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDE",
+            "level": 190
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N050.17.27.999",
+    "longitude": "E012.22.51.999",
+    "name": "VARIK"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC EDAB",
+            "levelBellow": 160,
+            "note": "rlsd ↓130 after ToC"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKKV",
+            "level": 120
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N050.28.36.998",
+    "longitude": "E012.54.42.001",
+    "name": "KILNU"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDDB",
+            "level": 360
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDB from EDMM FIR LOWS LOWL",
+            "level": 300
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N050.30.22.201",
+    "longitude": "E013.08.17.671",
+    "name": "GAVLI",
+    "position": "right"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDDB",
+            "level": 340
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDDB to EDMM FIR, LOWS LOWL LOWI",
+            "level": 300
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDDP",
+            "level": 290
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDCD",
+            "level": 260
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDDC EDAB",
+            "levelUp": 160,
+            "levelAbove": 130
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKKV",
+            "level": 140
+          }
+        ]
+      }
+    },
+    "latitude": "N050.42.55.681",
+    "longitude": "E013.37.43.708",
+    "name": "MAREM"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO",
+            "level": 170,
+            "note": "rlsd ↓ after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO from EDDC",
+            "level": 130
+          }
+        ],
+        "note": "ACC München is responsible for the provision of separation between traffic converging after LALUK, OMELO, DEKOV and HDO."
+      }
+    },
+    "latitude": "N050.48.15.868",
+    "longitude": "E013.52.48.770",
+    "name": "LALUK"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": null,
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDDP EDAC",
+            "level": 290,
+            "note": "rlsd ↑310 after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV LKHK",
+            "level": 230
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKMH",
+            "level": 190
+          }
+        ],
+        "note": "UAC Karlsruhe is responsible for the provision of separation between traffic converging after OMELO and HDO."
+      }
+    },
+    "latitude": "N050.50.16.490",
+    "longitude": "E014.00.02.728",
+    "name": "OMELO"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO",
+            "levelUp": 240,
+            "levelAbove": 220,
+            "note": "rlsd ↑300 after ToC"
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO to EDDB",
+            "level": 200
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO to EDDC",
+            "level": 120
+          }
+        ]
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDDC",
+            "levelUp": 150,
+            "levelAbove": 130
+          }
+        ]
+      }
+    },
+    "latitude": "N050.53.50.470",
+    "longitude": "E014.12.58.989",
+    "name": "DEKOV"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "LKPR LKKB LKVO",
+            "levelUp": 240,
+            "levelAbove": 220
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "LKMH",
+            "level": 180
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDE EDVE",
+            "level": 300
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDAC",
+            "level": 160
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDCY",
+            "level": 140
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDC",
+            "level": 140,
+            "note": "rlsd ↓130 after ToC"
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDAB",
+            "level": 100
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDBM EDCD EDBC",
+            "level": 260
+          }
+        ]
+      },
+      "inboundCoordination": {
+        "data": [
+          {
+            "type": "DEPARTURE",
+            "text": "EDDB",
+            "level": 330
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDDC via OKG",
+            "level": 130
+          },
+          {
+            "type": "DEPARTURE",
+            "text": "EDAB",
+            "level": 90
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPD LKCV LKHK",
+            "level": 230
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "LKPR LKKB LKVO LKMH",
+            "level": 190,
+            "note": "rlsd ↓ after ToC"
+          }
+        ]
+      }
+    },
+    "latitude": "N050.55.41.340",
+    "longitude": "E014.22.07.680",
+    "name": "HDO"
+  },
+  {
+    "coordination": {
+      "fir": "EDMM",
+      "outboundCoordination": {
+        "data": [
+          {
+            "type": "ARRIVAL",
+            "text": "EDDB",
+            "level": 310
+          },
+          {
+            "type": "ARRIVAL",
+            "text": "EDDP",
+            "level": 260
+          }
+        ]
+      },
+      "inboundCoordination": null
+    },
+    "latitude": "N050.56.17.998",
+    "longitude": "E014.41.56.000",
+    "name": "BEFRE"
+  }
+]

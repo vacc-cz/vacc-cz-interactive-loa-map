@@ -1,0 +1,19 @@
+.point {
+  stroke: #115a8c;
+  stroke-width: 1px;
+  fill: #6ea5c0;
+}
+
+.point:hover,
+.point:focus {
+  fill: #115a8c;
+  cursor: pointer;
+}
+
+.pointLabelLeft {
+  text-anchor: end;
+}
+
+.pointLabelRight {
+  text-anchor: start;
+}
