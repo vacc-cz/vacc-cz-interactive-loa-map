@@ -10,6 +10,12 @@
   cursor: pointer;
 }
 
+.pointWithoutCoordination {
+  stroke: #808080;
+  stroke-width: 1px;
+  fill: #a8a8a8;
+}
+
 .pointLabelLeft {
   text-anchor: end;
 }

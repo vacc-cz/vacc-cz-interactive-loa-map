@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+import React from 'react';
 import { Modal } from '@react-ui-org/react-ui';
 import styles from './PointModal.scss';
 
@@ -12,12 +13,11 @@ export const PointModal = ({
     inboundCoordination,
     outboundCoordination,
   } = coordination;
-  const [selectedPointData, setSelectedPointData] = useState(null);
 
-  let leftColumnRows = outboundCoordination != null && outboundCoordination.data != null
+  const leftColumnRows = outboundCoordination != null && outboundCoordination.data != null
     ? outboundCoordination.data.length
     : 0;
-  let rightColumnsRows = inboundCoordination != null && inboundCoordination.data != null
+  const rightColumnsRows = inboundCoordination != null && inboundCoordination.data != null
     ? inboundCoordination.data.length
     : 0;
 
@@ -34,17 +34,17 @@ export const PointModal = ({
               className={styles.outboundHead}
               colSpan={2}
             >
-              LKAA -> {fir}
+              {`LKAA -> ${fir}`}
             </th>
             <th
               className={styles.inboundHead}
               colSpan={2}
             >
-              {fir} -> LKAA
+              {`${fir} -> LKAA`}
             </th>
           </tr>
           {[...Array(Math.max(leftColumnRows, rightColumnsRows)).keys()].map((i) => (
-            <tr>
+            <tr key={i}>
               {(outboundCoordination?.data == null || outboundCoordination?.data[i] == null) && (
                 <td
                   className={styles.outboundCellWide}
@@ -54,8 +54,8 @@ export const PointModal = ({
               {outboundCoordination?.data != null && outboundCoordination?.data[i] != null && (
                 <>
                   <td className={styles.outboundCell}>
-                    {outboundCoordination?.data[i].type === 'DEPARTURE' && '↑'}
-                    {outboundCoordination?.data[i].type === 'ARRIVAL' && '↓'}
+                    {outboundCoordination?.data[i].type === 'departure' && '↑'}
+                    {outboundCoordination?.data[i].type === 'arrivals' && '↓'}
                     {outboundCoordination?.data[i].text}
                   </td>
                   <td className={styles.outboundCell}>
@@ -63,19 +63,19 @@ export const PointModal = ({
                       <u>{outboundCoordination?.data[i].level}</u>
                     )}
                     {outboundCoordination?.data[i].levelMax && (
-                      <u>max {outboundCoordination?.data[i].levelMax}</u>
+                      <u>{`max ${outboundCoordination?.data[i].levelMax}`}</u>
                     )}
                     {outboundCoordination?.data[i].levelDown && (
-                      <span>↓{outboundCoordination?.data[i].levelDown}</span>
+                      <span>{`↓${outboundCoordination?.data[i].levelDown}`}</span>
                     )}
                     {outboundCoordination?.data[i].levelBellow && (
-                      <span>{outboundCoordination?.data[i].levelBellow}B</span>
+                      <span>{`${outboundCoordination?.data[i].levelBellow}B`}</span>
                     )}
                     {outboundCoordination?.data[i].levelUp && (
-                      <span>↑{outboundCoordination?.data[i].levelUp}</span>
+                      <span>{`↑${outboundCoordination?.data[i].levelUp}`}</span>
                     )}
                     {outboundCoordination?.data[i].levelAbove && (
-                      <span>{outboundCoordination?.data[i].levelAbove}A</span>
+                      <span>{`${outboundCoordination?.data[i].levelAbove}A`}</span>
                     )}
                     {outboundCoordination?.data[i].note && (
                       <div>{outboundCoordination?.data[i].note}</div>
@@ -92,8 +92,8 @@ export const PointModal = ({
               {inboundCoordination?.data != null && inboundCoordination?.data[i] != null && (
                 <>
                   <td className={styles.inboundCell}>
-                    {inboundCoordination?.data[i].type === 'DEPARTURE' && '↑'}
-                    {inboundCoordination?.data[i].type === 'ARRIVAL' && '↓'}
+                    {inboundCoordination?.data[i].type === 'departure' && '↑'}
+                    {inboundCoordination?.data[i].type === 'arrival' && '↓'}
                     {inboundCoordination?.data[i].text}
                   </td>
                   <td className={styles.inboundCell}>
@@ -101,19 +101,19 @@ export const PointModal = ({
                       <u>{inboundCoordination?.data[i].level}</u>
                     )}
                     {inboundCoordination?.data[i].levelMax && (
-                      <u>max {inboundCoordination?.data[i].levelMax}</u>
+                      <u>{`max ${inboundCoordination?.data[i].levelMax}`}</u>
                     )}
                     {inboundCoordination?.data[i].levelDown && (
-                      <span>↓{inboundCoordination?.data[i].levelDown}</span>
+                      <span>{`↓${inboundCoordination?.data[i].levelDown}`}</span>
                     )}
                     {inboundCoordination?.data[i].levelBellow && (
-                      <span>{inboundCoordination?.data[i].levelBellow}B</span>
+                      <span>{`${inboundCoordination?.data[i].levelBellow}B`}</span>
                     )}
                     {inboundCoordination?.data[i].levelUp && (
-                      <span>↑{inboundCoordination?.data[i].levelUp}</span>
+                      <span>{`↑${inboundCoordination?.data[i].levelUp}`}</span>
                     )}
                     {inboundCoordination?.data[i].levelAbove && (
-                      <span>{inboundCoordination?.data[i].levelAbove}A</span>
+                      <span>{`${inboundCoordination?.data[i].levelAbove}A`}</span>
                     )}
                     {inboundCoordination?.data[i].note && (
                       <div>{inboundCoordination?.data[i].note}</div>
@@ -143,6 +143,42 @@ export const PointModal = ({
       </table>
     </Modal>
   );
+};
+
+PointModal.propTypes = {
+  coordination: PropTypes.shape({
+    fir: PropTypes.string.isRequired,
+    inboundCoordination: PropTypes.shape({
+      data: PropTypes.arrayOf(PropTypes.shape({
+        level: PropTypes.number,
+        levelAbove: PropTypes.number,
+        levelBellow: PropTypes.number,
+        levelDown: PropTypes.number,
+        levelMax: PropTypes.number,
+        levelUp: PropTypes.number,
+        note: PropTypes.string,
+        text: PropTypes.string,
+        type: PropTypes.oneOf(['departure', 'arrival']),
+      })),
+      note: PropTypes.string,
+    }),
+    outboundCoordination: PropTypes.shape({
+      data: PropTypes.arrayOf(PropTypes.shape({
+        level: PropTypes.number,
+        levelAbove: PropTypes.number,
+        levelBellow: PropTypes.number,
+        levelDown: PropTypes.number,
+        levelMax: PropTypes.number,
+        levelUp: PropTypes.number,
+        note: PropTypes.string,
+        text: PropTypes.string,
+        type: PropTypes.oneOf(['departure', 'arrival']),
+      })),
+      note: PropTypes.string,
+    }),
+  }).isRequired,
+  name: PropTypes.string.isRequired,
+  onClose: PropTypes.func.isRequired,
 };
 
 export default PointModal;

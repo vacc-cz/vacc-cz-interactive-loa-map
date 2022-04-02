@@ -22,6 +22,10 @@ module.exports = (env, argv) => {
     module: {
       rules: [
         {
+          test: /\.(sct|ese|txt)$/i,
+          type: 'asset/source',
+        },
+        {
           resolve: {
             fullySpecified: false,
           },

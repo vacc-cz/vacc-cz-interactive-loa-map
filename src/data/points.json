@@ -6,22 +6,22 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPPO",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDN EDDM",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "other LKAA",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO EDDC",
             "levelDown": 220,
             "levelBellow": 260
@@ -30,10 +30,8 @@
         "note": "ACC Warszawa is responsible for the provision of separation between traffic converging after TOMTI and RASAN."
       }
     },
-    "latitude": "N051.00.49.510",
-    "longitude": "E015.05.40.801",
     "name": "RASAN",
-    "position": "right"
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -41,29 +39,29 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKKV",
             "level": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO",
             "levelUp": 290,
             "levelAbove": 270
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDC",
             "levelUp": 190,
             "levelAbove": 170
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPPO",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR",
             "level": 190
           }
@@ -72,23 +70,23 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR",
             "level": 260,
             "note": "rlsd↑ after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDN EDDM",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "other LKAA",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO EDDC",
             "levelDown": 220,
             "levelBellow": 260
@@ -97,10 +95,8 @@
         "note": "ACC Warszawa is responsible for the provision of separation between traffic converging after TOMTI and RASAN."
       }
     },
-    "latitude": "N050.57.11.001",
-    "longitude": "E015.17.35.998",
     "name": "TOMTI",
-    "position": "right"
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -108,24 +104,24 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKKV",
             "level": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO",
             "levelUp": 290,
             "levelAbove": 270,
             "note": "rlsd ↑300 after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPPO",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR",
             "level": 190
           }
@@ -133,9 +129,12 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N050.47.42.989",
-    "longitude": "E015.22.01.520",
-    "name": "LAGAR"
+    "name": "LAGAR",
+    "position": "topRight"
+  },
+  {
+    "name": "PEKOT",
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -146,18 +145,18 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR",
             "levelUp": 270,
             "levelAbove": 250
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKTB LKKU LKNA",
             "level": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWW LZBB",
             "level": 350
           }
@@ -165,10 +164,7 @@
         "note": "Flights via DESEN at FL300 or below shall be transferred to SOUTH LOWER sector."
       }
     },
-    "latitude": "N050.16.12.370",
-    "longitude": "E017.31.01.020",
-    "name": "DESEN",
-    "position": "right"
+    "name": "DESEN"
   },
   {
     "coordination": {
@@ -177,15 +173,13 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPKK EPKT",
             "levelUp": 280
           }
         ]
       }
     },
-    "latitude": "N050.12.35.740",
-    "longitude": "E017.30.42.890",
     "name": "UTEVO"
   },
   {
@@ -195,12 +189,12 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPKK",
             "level": 280
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPKT",
             "levelUp": 240,
             "levelAbove": 200,
@@ -209,10 +203,8 @@
         ]
       }
     },
-    "latitude": "N050.12.34.131",
-    "longitude": "E017.44.52.551",
     "name": "ADADO",
-    "position": "right"
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -220,18 +212,18 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKMT",
             "levelUp": 110,
             "levelAbove": 100
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPPO",
             "level": 360
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR",
             "level": 200
           }
@@ -241,27 +233,26 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR",
             "level": 270,
             "note": "PEKOT 250A"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWW LZBB",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 120
           }
         ]
       }
     },
-    "latitude": "N050.01.49.000",
-    "longitude": "E017.59.44.001",
-    "name": "REGLI"
+    "name": "REGLI",
+    "position": "top"
   },
   {
     "coordination": {
@@ -269,19 +260,19 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKMT",
             "levelUp": 110,
             "levelAbove": 100
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD LKTB LKCV",
             "levelUp": 330,
             "levelAbove": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKT",
             "levelDown": 150,
             "levelBellow": 230,
@@ -293,22 +284,21 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKT",
             "level": 240,
             "note": "rlsd ↑280 after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 120
           }
         ]
       }
     },
-    "latitude": "N050.00.10.000",
-    "longitude": "E018.11.43.000",
-    "name": "BAVOK"
+    "name": "BAVOK",
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -316,24 +306,24 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKMT",
             "levelUp": 110,
             "levelAbove": 100
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD LKTB LKCV",
             "levelUp": 330,
             "levelAbove": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPRZ EPLB",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKT",
             "levelDown": 150,
             "levelBellow": 230,
@@ -345,21 +335,20 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 120
           }
         ]
       }
     },
-    "latitude": "N049.56.01.978",
-    "longitude": "E018.16.59.768",
-    "name": "PADKA"
+    "name": "PADKA",
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -368,33 +357,32 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPKK EPKT",
             "levelUp": 240,
             "levelAbove": 130,
             "note": "rlsd ↑280 after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWW LZBB",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKTB LKKU LKNA",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 120
           }
         ]
       }
     },
-    "latitude": "N049.50.50.978",
-    "longitude": "E018.34.22.209",
-    "name": "TUSIN"
+    "name": "TUSIN",
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -402,13 +390,13 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKMT",
             "levelUp": 110,
             "levelAbove": 100
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKK",
             "levelDown": 150,
             "levelBellow": 190,
@@ -418,9 +406,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.41.40.790",
-    "longitude": "E018.42.32.389",
-    "name": "NETIR"
+    "name": "NETIR",
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -428,33 +415,33 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKMT *",
             "levelMax": 110,
             "note": "rlsd ↑120 after ToC"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD",
             "levelMax": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR EPKK EPKT",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZKZ LHTL LHKE LHBP",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZTT LZSL LHPA LHPR",
             "levelMax": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZZI */**",
             "levelMax": 100
           }
@@ -464,56 +451,55 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZZI",
             "levelMax": 120
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZSL",
             "levelMax": 280
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZTT LZKZ",
             "levelMax": 340
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LHCC",
             "note": "any even FL (default 340)"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "levelMax": 120
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR EPKT EPKK",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA",
             "levelMax": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LZBB)",
             "levelMax": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LHCC) LKPD",
             "levelMax": 300
           }
         ]
       }
     },
-    "latitude": "N049.23.36.790",
-    "longitude": "E018.26.50.279",
-    "name": "BILNA"
+    "name": "BILNA",
+    "position": "bottomRight"
   },
   {
     "coordination": {
@@ -521,32 +507,32 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKTB",
             "levelMax": 210
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD",
             "levelMax": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR EPKK EPKT",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZKZ LHTL LHKE LHBP",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZTT LZSL LHPA LHPR",
             "levelMax": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZZI */**",
             "levelMax": 100
           }
@@ -556,57 +542,56 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZZI",
             "levelMax": 120
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZSL",
             "levelMax": 280
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZTT LZKZ",
             "levelMax": 340
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LHCC",
             "note": "any even FL (default 340)"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKTB",
             "levelDown": 220,
             "levelBellow": 240
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR EPKT EPKK",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LZBB)",
             "levelMax": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LHCC) LKPD",
             "levelMax": 300
           }
         ]
       }
     },
-    "latitude": "N049.14.45.628",
-    "longitude": "E018.09.56.581",
-    "name": "MAKAL"
+    "name": "MAKAL",
+    "position": "bottomRight"
   },
   {
     "coordination": {
@@ -614,27 +599,27 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKTB",
             "levelMax": 210
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD",
             "levelMax": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR EPKK EPKT",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZKZ LHTL LHKE LHBP",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZTT LZSL LHPA LHPR",
             "levelMax": 290
           }
@@ -642,9 +627,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.07.37.610",
-    "longitude": "E018.06.39.419",
-    "name": "ROMIS"
+    "name": "ROMIS",
+    "position": "bottomRight"
   },
   {
     "coordination": {
@@ -652,22 +636,22 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD",
             "levelMax": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR EPKK EPKT",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZKZ LHTL LHKE LHBP",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZTT LZSL LHPA LHPR",
             "levelMax": 290
           }
@@ -675,9 +659,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.01.28.700",
-    "longitude": "E017.57.00.831",
-    "name": "VALPI"
+    "name": "VALPI",
+    "position": "bottomRight"
   },
   {
     "coordination": {
@@ -686,37 +669,37 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZSL",
             "levelMax": 280
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZTT LZKZ",
             "levelMax": 340
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LHCC",
             "note": "any even FL (default 340)"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR EPKT EPKK",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LZBB)",
             "levelMax": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LHCC) LKPD",
             "levelMax": 300
           }
@@ -724,10 +707,8 @@
         "note": "ACC Bratislava is responsible for the provision of separation between traffic converging after MAVOR and LALES."
       }
     },
-    "latitude": "N048.51.54.619",
-    "longitude": "E017.42.34.250",
     "name": "LALES",
-    "position": "right"
+    "position": "bottomRight"
   },
   {
     "coordination": {
@@ -735,38 +716,38 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKKU *",
             "levelMax": 90
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD",
             "levelMax": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR EPKK EPKT",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZKZ LHTL LHKE LHBP",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZTT LZSL LHPA LHPR",
             "levelMax": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZIB",
             "levelDown": 170,
             "levelBellow": 210
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZPP LZMC **",
             "levelMax": 130
           }
@@ -776,63 +757,63 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZIB LZPP LZMC",
             "levelUp": 160,
             "levelAbove": 130
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZSL",
             "levelMax": 280
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZTT LZKZ",
             "levelMax": 340
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LHCC",
             "note": "any even FL (default 340)"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR EPKT EPKK",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LZBB)",
             "levelMax": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LHCC) LKPD",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKTB",
             "levelMax": 120
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKTB (if RWY27 in use)",
             "levelDown": 100
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKKU",
             "levelMax": 100
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "levelMax": 220
           }
@@ -840,10 +821,8 @@
         "note": "ACC Bratislava is responsible for the provision of separation between traffic converging after MAVOR and LALES."
       }
     },
-    "latitude": "N048.49.17.018",
-    "longitude": "E017.32.15.010",
     "name": "MAVOR",
-    "position": "right"
+    "position": "bottom"
   },
   {
     "coordination": {
@@ -851,38 +830,38 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKTB *",
             "levelMax": 120
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD",
             "levelMax": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR EPKK EPKT",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZKZ LHTL LHKE LHBP",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZTT LZSL LHPA LHPR",
             "levelMax": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZIB",
             "levelDown": 170,
             "levelBellow": 210
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZPP LZMC **",
             "levelMax": 130
           }
@@ -892,52 +871,51 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZIB LZPP LZMC",
             "levelUp": 160,
             "levelAbove": 130
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZSL",
             "levelMax": 280
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZTT LZKZ",
             "levelMax": 340
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LHCC",
             "note": "any even FL (default 340)"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPWR EPKT EPKK",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA",
             "levelMax": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LZBB)",
             "levelMax": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKAA (ADEP LHCC) LKPD",
             "levelMax": 300
           }
         ]
       }
     },
-    "latitude": "N048.51.11.520",
-    "longitude": "E017.10.04.238",
-    "name": "ODNEM"
+    "name": "ODNEM",
+    "position": "top"
   },
   {
     "coordination": {
@@ -945,27 +923,27 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPD",
             "levelMax": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EPWR EPKK EPKT",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZKZ LHTL LHKE LHBP",
             "levelMax": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZTT LZSL LHPA LHPR",
             "levelMax": 290
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZIB",
             "levelDown": 170,
             "levelBellow": 210
@@ -974,10 +952,8 @@
         "note": "ACC Praha is responsible for the provision of separation between traffic converging after PEPIK and ODNEM."
       }
     },
-    "latitude": "N048.46.58.000",
-    "longitude": "E017.04.45.001",
     "name": "PEPIK",
-    "position": "right"
+    "position": "bottom"
   },
   {
     "coordination": {
@@ -986,44 +962,44 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LOWW",
             "levelUp": 230,
             "levelAbove": 170,
             "note": "rlsd ↑240 after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDP",
             "levelMax": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC *",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKK EPKT EPWR",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKKV *",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 270
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKTB LKKU",
             "levelDown": 100,
             "levelBellow": 120
@@ -1032,9 +1008,8 @@
         "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
       }
     },
-    "latitude": "N048.43.43.640",
-    "longitude": "E016.47.21.098",
-    "name": "LEDVA"
+    "name": "LEDVA",
+    "position": "bottom"
   },
   {
     "coordination": {
@@ -1042,23 +1017,23 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKTB LKKU",
             "level": 120
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKMT",
             "levelUp": 300,
             "levelAbove": 250
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWL LOWG",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWW *",
             "levelDown": 130,
             "levelBellow": 170
@@ -1068,9 +1043,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N048.47.05.078",
-    "longitude": "E016.37.15.610",
-    "name": "MIKOV"
+    "name": "MIKOV",
+    "position": "top"
   },
   {
     "coordination": {
@@ -1079,32 +1053,32 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDP",
             "levelMax": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC *",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKK EPKT EPWR",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKKV *",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 270
           }
@@ -1112,9 +1086,8 @@
         "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
       }
     },
-    "latitude": "N048.46.10.599",
-    "longitude": "E016.12.18.208",
-    "name": "NAVTI"
+    "name": "NAVTI",
+    "position": "bottom"
   },
   {
     "coordination": {
@@ -1123,32 +1096,32 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDP",
             "levelMax": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC *",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKK EPKT EPWR",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKKV *",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 270
           }
@@ -1156,10 +1129,8 @@
         "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
       }
     },
-    "latitude": "N048.52.28.981",
-    "longitude": "E015.50.05.989",
     "name": "LOKVU",
-    "position": "right"
+    "position": "top"
   },
   {
     "coordination": {
@@ -1167,22 +1138,22 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDM EDMx LOWS",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWL LOWG",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZIB",
             "level": 230
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWW",
             "level": 150
           }
@@ -1191,43 +1162,43 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LOWW (dest LKPR LKKB LKVO)",
             "level": 180
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LOWW (dest other)",
             "levelUp": 300,
             "levelAbove": 200
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDP",
             "levelMax": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC *",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKK EPKT EPWR",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKKV *",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 270
           }
@@ -1235,9 +1206,8 @@
         "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
       }
     },
-    "latitude": "N048.53.17.181",
-    "longitude": "E015.36.56.840",
-    "name": "LANUX"
+    "name": "LANUX",
+    "position": "bottom"
   },
   {
     "coordination": {
@@ -1245,7 +1215,7 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO LKPD",
             "levelUp": 250,
             "levelAbove": 290,
@@ -1256,32 +1226,32 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDP",
             "levelMax": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC *",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EPKK EPKT EPWR",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKKV *",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMT",
             "level": 270
           }
@@ -1289,9 +1259,8 @@
         "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
       }
     },
-    "latitude": "N048.53.34.490",
-    "longitude": "E015.23.13.660",
-    "name": "PISAM"
+    "name": "PISAM",
+    "position": "top"
   },
   {
     "coordination": {
@@ -1299,7 +1268,7 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO LKPD",
             "levelUp": 250,
             "levelAbove": 290,
@@ -1310,24 +1279,24 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LZIB",
             "levelUp": 340,
             "levelAbove": 310
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LOWW *",
             "levelUp": 300,
             "levelAbove": 250
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKKV *",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV",
             "level": 280
           }
@@ -1335,9 +1304,8 @@
         "note": "* If RFL is 240 or bellow, flights shall be transferred via LANUX maintaining RFL"
       }
     },
-    "latitude": "N048.53.52.879",
-    "longitude": "E015.06.58.899",
-    "name": "DITIS"
+    "name": "DITIS",
+    "position": "bottom"
   },
   {
     "coordination": {
@@ -1345,7 +1313,7 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWL",
             "levelDown": 170,
             "levelBellow": 210
@@ -1355,10 +1323,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.00.35.020",
-    "longitude": "E014.33.36.028",
     "name": "LUPEV",
-    "position": "right"
+    "position": "topRight"
   },
   {
     "coordination": {
@@ -1367,7 +1333,7 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LOWS",
             "levelUp": 300,
             "levelAbove": 250
@@ -1375,9 +1341,8 @@
         ]
       }
     },
-    "latitude": "N049.02.05.690",
-    "longitude": "E014.28.35.338",
-    "name": "UPEGU"
+    "name": "UPEGU",
+    "position": "topLeft"
   },
   {
     "coordination": {
@@ -1385,23 +1350,23 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LZIB",
             "level": 330
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWW *",
             "levelDown": 310,
             "levelBellow": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWS",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWL",
             "levelDown": 170,
             "levelBellow": 210
@@ -1412,16 +1377,15 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": " LKPR LKKB LKVO LKKV LKMH",
             "level": 250
           }
         ]
       }
     },
-    "latitude": "N048.56.53.980",
-    "longitude": "E014.20.09.700",
-    "name": "BUDEX"
+    "name": "BUDEX",
+    "position": "bottom"
   },
   {
     "coordination": {
@@ -1430,7 +1394,7 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDMM FIR LOWL LOWS",
             "levelUp": 300,
             "levelAbove": 270
@@ -1439,8 +1403,6 @@
         "note": "UAC Karlsruhe is responsible for the provision of separation between same level crossing traffic via LULAR and via BEPAS / DOMAL."
       }
     },
-    "latitude": "N048.53.54.290",
-    "longitude": "E013.30.34.768",
     "name": "BEPAS"
   },
   {
@@ -1449,7 +1411,7 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": " EDMM FIR LOWS",
             "level": 250
           }
@@ -1457,8 +1419,6 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.00.56.430",
-    "longitude": "E013.30.46.069",
     "name": "BAVRI"
   },
   {
@@ -1468,7 +1428,7 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKPD LKCV LKHK LKMH",
             "level": 270,
             "note": "rlsd ↓  north of L610"
@@ -1477,8 +1437,6 @@
         "note": "UAC Karlsruhe is responsible for the provision of separation between same level crossing traffic via LULAR and via BEPAS / DOMAL."
       }
     },
-    "latitude": "N049.07.09.001",
-    "longitude": "E013.23.39.998",
     "name": "DOLUP"
   },
   {
@@ -1487,28 +1445,28 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO LKKV",
             "levelUp": 300,
             "levelAbove": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWI",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDMM FIR",
             "level": 250
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LOWL",
             "level": 210
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDMS EDMV",
             "level": 100
           }
@@ -1516,8 +1474,6 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.14.28.528",
-    "longitude": "E013.15.56.109",
     "name": "RUDAP"
   },
   {
@@ -1526,12 +1482,12 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDMM FIR LOWS",
             "level": 250
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDMS EDMV",
             "level": 100
           },
@@ -1544,8 +1500,6 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.19.51.398",
-    "longitude": "E013.07.55.988",
     "name": "NIRGO"
   },
   {
@@ -1554,12 +1508,12 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDMM FIR LOWS",
             "level": 250
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDMS EDMV",
             "level": 100
           },
@@ -1572,9 +1526,10 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N049.25.09.328",
-    "longitude": "E012.59.50.701",
     "name": "VESUB"
+  },
+  {
+    "name": "RUDNO"
   },
   {
     "coordination": {
@@ -1583,14 +1538,14 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDMM FIR",
             "levelUp": 300,
             "levelAbove": 280,
             "note": "rlsd ↑310 passing RUDNO or abeam"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LOWL LOWS",
             "level": 300,
             "note": "rlsd ↑310 passing RUDNO or abeam"
@@ -1598,9 +1553,8 @@
         ]
       }
     },
-    "latitude": "N049.26.09.999",
-    "longitude": "E012.39.24.001",
-    "name": "TIVDA"
+    "name": "TIVDA",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1609,39 +1563,38 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDMM FIR",
             "levelUp": 300,
             "levelAbove": 280,
             "note": "rlsd ↑310 passing RUDNO or abeam"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LOWL LOWS",
             "level": 300,
             "note": "rlsd ↑310 passing RUDNO or abeam"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC EDAB",
             "level": 280
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKPD LKCV LKHK LKMH",
             "level": 220
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKKV",
             "level": 180
           }
         ]
       }
     },
-    "latitude": "N049.34.04.501",
-    "longitude": "E012.36.52.210",
-    "name": "AGNAV"
+    "name": "AGNAV",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1657,9 +1610,8 @@
         "note": "ACC München / UAC Karlsruhe is responsible for the provision of separation between traffic converging after VEMUT and ENITA."
       }
     },
-    "latitude": "N049.42.07.689",
-    "longitude": "E012.28.25.989",
-    "name": "ENITA"
+    "name": "ENITA",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1668,12 +1620,12 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDN EDQC",
             "level": 270
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDQM",
             "level": 170
           }
@@ -1681,9 +1633,8 @@
         "note": "ACC München / UAC Karlsruhe is responsible for the provision of separation between traffic converging after VEMUT and ENITA."
       }
     },
-    "latitude": "N049.48.38.678",
-    "longitude": "E012.27.40.489",
-    "name": "VEMUT"
+    "name": "VEMUT",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1692,17 +1643,17 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDN EDQC",
             "level": 230
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDQM",
             "level": 170
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKPD LKCV LKHK LKMH",
             "level": 250,
             "note": "rlsd ↓200 after ToC"
@@ -1710,9 +1661,8 @@
         ]
       }
     },
-    "latitude": "N049.56.14.218",
-    "longitude": "E012.20.38.399",
-    "name": "ODOMO"
+    "name": "ODOMO",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1720,18 +1670,18 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO",
             "level": 280,
             "note": "rlsd ↑300 after ToC"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKKV",
             "level": 120
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDN ETHN ETIN EDQ*",
             "level": 180
           },
@@ -1744,26 +1694,25 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDN EDQC",
             "level": 270
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDQM",
             "level": 170
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKKV",
             "level": 170
           }
         ]
       }
     },
-    "latitude": "N050.03.54.529",
-    "longitude": "E012.24.20.660",
-    "name": "OKG"
+    "name": "OKG",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1771,28 +1720,28 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO",
             "level": 280,
             "note": "rlsd ↑300 after ToC"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKKV",
             "level": 120
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDF",
             "level": 340
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "ETAR EDFE EDFZ ETID ETOU EDGS",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": " EDDS EDTY",
             "level": 300
           }
@@ -1800,9 +1749,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N050.11.25.760",
-    "longitude": "E012.20.19.100",
-    "name": "RAPET"
+    "name": "RAPET",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1810,18 +1758,18 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO",
             "level": 280,
             "note": "rlsd ↑300 after ToC"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKKV",
             "level": 120
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDE",
             "level": 190
           }
@@ -1829,9 +1777,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N050.17.27.999",
-    "longitude": "E012.22.51.999",
-    "name": "VARIK"
+    "name": "VARIK",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1839,13 +1786,13 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC EDAB",
             "levelBellow": 160,
             "note": "rlsd ↓130 after ToC"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKKV",
             "level": 120
           }
@@ -1853,9 +1800,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N050.28.36.998",
-    "longitude": "E012.54.42.001",
-    "name": "KILNU"
+    "name": "KILNU",
+    "position": "topLeft"
   },
   {
     "coordination": {
@@ -1863,12 +1809,12 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDB",
             "level": 360
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDB from EDMM FIR LOWS LOWL",
             "level": 300
           }
@@ -1876,10 +1822,8 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N050.30.22.201",
-    "longitude": "E013.08.17.671",
     "name": "GAVLI",
-    "position": "right"
+    "position": "topLeft"
   },
   {
     "coordination": {
@@ -1888,42 +1832,41 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDB",
             "level": 340
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDB to EDMM FIR, LOWS LOWL LOWI",
             "level": 300
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDP",
             "level": 290
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDCD",
             "level": 260
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDC EDAB",
             "levelUp": 160,
             "levelAbove": 130
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKKV",
             "level": 140
           }
         ]
       }
     },
-    "latitude": "N050.42.55.681",
-    "longitude": "E013.37.43.708",
-    "name": "MAREM"
+    "name": "MAREM",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1932,13 +1875,13 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO",
             "level": 170,
             "note": "rlsd ↓ after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO from EDDC",
             "level": 130
           }
@@ -1946,9 +1889,8 @@
         "note": "ACC München is responsible for the provision of separation between traffic converging after LALUK, OMELO, DEKOV and HDO."
       }
     },
-    "latitude": "N050.48.15.868",
-    "longitude": "E013.52.48.770",
-    "name": "LALUK"
+    "name": "LALUK",
+    "position": "left"
   },
   {
     "coordination": {
@@ -1957,18 +1899,18 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDP EDAC",
             "level": 290,
             "note": "rlsd ↑310 after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV LKHK",
             "level": 230
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKMH",
             "level": 190
           }
@@ -1976,9 +1918,8 @@
         "note": "UAC Karlsruhe is responsible for the provision of separation between traffic converging after OMELO and HDO."
       }
     },
-    "latitude": "N050.50.16.490",
-    "longitude": "E014.00.02.728",
-    "name": "OMELO"
+    "name": "OMELO",
+    "position": "topLeft"
   },
   {
     "coordination": {
@@ -1986,19 +1927,19 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO",
             "levelUp": 240,
             "levelAbove": 220,
             "note": "rlsd ↑300 after ToC"
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO to EDDB",
             "level": 200
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO to EDDC",
             "level": 120
           }
@@ -2007,7 +1948,7 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDC",
             "levelUp": 150,
             "levelAbove": 130
@@ -2015,9 +1956,8 @@
         ]
       }
     },
-    "latitude": "N050.53.50.470",
-    "longitude": "E014.12.58.989",
-    "name": "DEKOV"
+    "name": "DEKOV",
+    "position": "topLeft"
   },
   {
     "coordination": {
@@ -2025,44 +1965,44 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKPR LKKB LKVO",
             "levelUp": 240,
             "levelAbove": 220
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "LKMH",
             "level": 180
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDE EDVE",
             "level": 300
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDAC",
             "level": 160
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDCY",
             "level": 140
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDC",
             "level": 140,
             "note": "rlsd ↓130 after ToC"
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDAB",
             "level": 100
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDBM EDCD EDBC",
             "level": 260
           }
@@ -2071,27 +2011,27 @@
       "inboundCoordination": {
         "data": [
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDB",
             "level": 330
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDDC via OKG",
             "level": 130
           },
           {
-            "type": "DEPARTURE",
+            "type": "departure",
             "text": "EDAB",
             "level": 90
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPD LKCV LKHK",
             "level": 230
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "LKPR LKKB LKVO LKMH",
             "level": 190,
             "note": "rlsd ↓ after ToC"
@@ -2099,9 +2039,8 @@
         ]
       }
     },
-    "latitude": "N050.55.41.340",
-    "longitude": "E014.22.07.680",
-    "name": "HDO"
+    "name": "HDO",
+    "position": "top"
   },
   {
     "coordination": {
@@ -2109,12 +2048,12 @@
       "outboundCoordination": {
         "data": [
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDB",
             "level": 310
           },
           {
-            "type": "ARRIVAL",
+            "type": "arrival",
             "text": "EDDP",
             "level": 260
           }
@@ -2122,8 +2061,7 @@
       },
       "inboundCoordination": null
     },
-    "latitude": "N050.56.17.998",
-    "longitude": "E014.41.56.000",
-    "name": "BEFRE"
+    "name": "BEFRE",
+    "position": "bottom"
   }
 ]

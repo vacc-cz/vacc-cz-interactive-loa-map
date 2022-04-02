@@ -1,0 +1,1 @@
+export { getParsedSectorFile } from './getParsedSectorFile';

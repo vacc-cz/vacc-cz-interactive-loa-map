@@ -10,7 +10,7 @@ export const transformCoordinateToDegDec = (degMinSecDec) => {
   const degreeValue = parseInt(coordinateParts[0].replace(/[NESW](.+)/, '$1'), 10);
   const minuteValue = parseFloat(coordinateParts[1]);
   const secondValue = parseFloat(coordinateParts[2]);
-  const secondDecimalValue = parseFloat(coordinateParts[3]) / Math.pow(10, coordinateParts[3].length);
+  const secondDecimalValue = parseFloat(coordinateParts[3]) / (10 ** coordinateParts[3].length);
 
   let degDec = degreeValue + (minuteValue + ((secondValue + secondDecimalValue) / 60)) / 60;
 
