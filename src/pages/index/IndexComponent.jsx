@@ -36,7 +36,7 @@ export const IndexComponent = () => {
         xMax={xMax}
         yMin={yMin}
         yMax={yMax}
-        width={900}
+        width={925}
       >
         {['LKAA_CTR', 'LKAA_TMA'].map((name) => (
           <Airspace

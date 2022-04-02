@@ -20,6 +20,7 @@ export const PointModal = ({
   const rightColumnsRows = inboundCoordination != null && inboundCoordination.data != null
     ? inboundCoordination.data.length
     : 0;
+  const maxRows = Math.max(leftColumnRows, rightColumnsRows);
 
   return (
     <Modal
@@ -43,14 +44,19 @@ export const PointModal = ({
               {`${fir} -> LKAA`}
             </th>
           </tr>
-          {[...Array(Math.max(leftColumnRows, rightColumnsRows)).keys()].map((i) => (
+          {[...Array(maxRows).keys()].map((i) => (
             <tr key={i}>
-              {(outboundCoordination?.data == null || outboundCoordination?.data[i] == null) && (
-                <td
-                  className={styles.outboundCellWide}
-                  colSpan={2}
-                />
-              )}
+              {
+                (outboundCoordination?.data == null || outboundCoordination?.data[i] == null)
+                && i === leftColumnRows
+                && (
+                  <td
+                    className={styles.outboundCellWide}
+                    colSpan={2}
+                    rowSpan={i < rightColumnsRows ? (maxRows - i) : 1}
+                  />
+                )
+              }
               {outboundCoordination?.data != null && outboundCoordination?.data[i] != null && (
                 <>
                   <td className={styles.outboundCell}>
@@ -83,12 +89,17 @@ export const PointModal = ({
                   </td>
                 </>
               )}
-              {(inboundCoordination?.data == null || inboundCoordination?.data[i] == null) && (
-                <td
-                  className={styles.inboundCellWide}
-                  colSpan={2}
-                />
-              )}
+              {
+                (inboundCoordination?.data == null || inboundCoordination?.data[i] == null)
+                && i === rightColumnsRows
+                && (
+                  <td
+                    className={styles.inboundCellWide}
+                    colSpan={2}
+                    rowSpan={i < leftColumnRows ? (maxRows - i) : 1}
+                  />
+                )
+              }
               {inboundCoordination?.data != null && inboundCoordination?.data[i] != null && (
                 <>
                   <td className={styles.inboundCell}>
