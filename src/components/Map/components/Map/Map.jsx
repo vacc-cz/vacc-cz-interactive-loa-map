@@ -25,6 +25,7 @@ const Map = ({
       className={styles.map}
       height={height}
       width={width}
+      viewBox={`0 0 ${width} ${height}`}
     >
       {children}
     </svg>

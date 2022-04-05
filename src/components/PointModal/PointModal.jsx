@@ -60,8 +60,8 @@ export const PointModal = ({
               {outboundCoordination?.data != null && outboundCoordination?.data[i] != null && (
                 <>
                   <td className={styles.outboundCell}>
-                    {outboundCoordination?.data[i].type === 'departure' && '↑'}
-                    {outboundCoordination?.data[i].type === 'arrivals' && '↓'}
+                    {outboundCoordination?.data[i].type === 'departure' && '↑ '}
+                    {outboundCoordination?.data[i].type === 'arrival' && '↓ '}
                     {outboundCoordination?.data[i].text}
                   </td>
                   <td className={styles.outboundCell}>
@@ -103,8 +103,8 @@ export const PointModal = ({
               {inboundCoordination?.data != null && inboundCoordination?.data[i] != null && (
                 <>
                   <td className={styles.inboundCell}>
-                    {inboundCoordination?.data[i].type === 'departure' && '↑'}
-                    {inboundCoordination?.data[i].type === 'arrival' && '↓'}
+                    {inboundCoordination?.data[i].type === 'departure' && '↑ '}
+                    {inboundCoordination?.data[i].type === 'arrival' && '↓ '}
                     {inboundCoordination?.data[i].text}
                   </td>
                   <td className={styles.inboundCell}>

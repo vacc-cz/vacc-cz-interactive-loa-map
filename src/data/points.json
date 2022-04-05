@@ -133,10 +133,6 @@
     "position": "topRight"
   },
   {
-    "name": "PEKOT",
-    "position": "topRight"
-  },
-  {
     "coordination": {
       "fir": "EPWW",
       "outboundCoordination": {
@@ -1529,9 +1525,6 @@
     "name": "VESUB"
   },
   {
-    "name": "RUDNO"
-  },
-  {
     "coordination": {
       "fir": "EDMM",
       "outboundCoordination": null,
@@ -2062,6 +2055,53 @@
       "inboundCoordination": null
     },
     "name": "BEFRE",
+    "position": "top"
+  },
+  {
+    "name": "ASTEL",
+    "position": "bottom"
+  },
+  {
+    "name": "PEKOT",
+    "position": "top"
+  },
+  {
+    "name": "RIBSI",
+    "position": "left"
+  },
+  {
+    "name": "BAXEV",
+    "position": "left"
+  },
+  {
+    "name": "TIBLA",
+    "position": "bottom"
+  },
+  {
+    "name": "BNO",
+    "position": "top"
+  },
+  {
+    "name": "USUPA",
+    "position": "right"
+  },
+  {
+    "name": "VOZ",
+    "position": "left"
+  },
+  {
+    "name": "VLM",
+    "position": "top"
+  },
+  {
+    "name": "BEKVI",
+    "position": "top"
+  },
+  {
+    "name": "RUDNO"
+  },
+  {
+    "name": "GOPSI",
     "position": "bottom"
   }
 ]

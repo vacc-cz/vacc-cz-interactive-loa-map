@@ -1,0 +1,19 @@
+.box {
+  stroke: #115a8c;
+  stroke-width: 1px;
+  fill: #6ea5c0;
+  cursor: pointer;
+}
+
+.label {
+  text-anchor: middle;
+  cursor: pointer;
+}
+
+.boundaryPoint:hover .box {
+  fill: #115a8c;
+}
+
+.boundaryPoint:hover .label {
+  fill: white;
+}

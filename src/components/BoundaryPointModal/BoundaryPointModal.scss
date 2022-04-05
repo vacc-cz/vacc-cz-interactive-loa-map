@@ -1,0 +1,47 @@
+.table {
+  width: 100%;
+  font-size: 0.85em;
+}
+
+.table td,
+.table th {
+  padding: 0.25em;
+  border: 1px solid #282828;
+}
+
+.outboundHead {
+  width: 50%;
+  color: white;
+  background-color: #115a8c;
+}
+
+.outboundCell {
+  width: 25%;
+  background-color: #6ea4c0;
+}
+
+.outboundCellWide {
+  width: 50%;
+  background-color: #6ea4c0;
+}
+
+.inboundHead {
+  width: 50%;
+  color: white;
+  background-color: #5c8e8c;
+}
+
+.inboundCell {
+  width: 25%;
+  background-color: #a5c1c1ff;
+}
+
+.inboundCellWide {
+  width: 50%;
+  background-color: #a5c1c1ff;
+}
+
+.outboundCell > span,
+.inboundCell > span {
+  padding-right: inherit;
+}

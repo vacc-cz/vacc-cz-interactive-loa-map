@@ -4,11 +4,14 @@ import React, {
 } from 'react';
 import {
   Airspace,
+  BoundaryPoint,
   Map,
   Point,
 } from '../../components/Map';
+import { BoundaryPointModal } from '../../components/BoundaryPointModal';
 import { PointModal } from '../../components/PointModal';
 import { getParsedSectorFile } from '../../services/euroscopeService/parseSectorFile';
+import boundaryPoints from '../../data/boundaryPoints.json';
 import points from '../../data/points.json';
 import sectorFile from '../../data/sector_file.sct';
 import styles from './styles.scss';
@@ -27,6 +30,7 @@ export const IndexComponent = () => {
   }), []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const [selectedPointData, setSelectedPointData] = useState(null);
+  const [selectedBoundaryPointData, setSelectedBoundaryPointData] = useState(null);
 
   return (
     <div className={styles.root}>
@@ -59,6 +63,13 @@ export const IndexComponent = () => {
             points={parsedSectorFile.artccHigh[name]}
           />
         ))}
+        {boundaryPoints.map((point) => (
+          <BoundaryPoint
+            {...point}
+            key={point.name}
+            onClick={() => { setSelectedBoundaryPointData(point); }}
+          />
+        ))}
         {points.map((point) => (
           <Point
             {...point}
@@ -74,6 +85,15 @@ export const IndexComponent = () => {
           name={selectedPointData.name}
           onClose={() => {
             setSelectedPointData(null);
+          }}
+        />
+      )}
+      {selectedBoundaryPointData && (
+        <BoundaryPointModal
+          coordination={selectedBoundaryPointData.coordination}
+          name={selectedBoundaryPointData.name}
+          onClose={() => {
+            setSelectedBoundaryPointData(null);
           }}
         />
       )}
