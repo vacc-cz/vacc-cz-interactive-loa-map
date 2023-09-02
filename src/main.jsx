@@ -11,5 +11,5 @@ import '@react-ui-org/react-ui/src/lib/helpers.scss';
 
 render(
   <IndexPage />,
-  document.getElementById('application'),
+  document.getElementById('vacc-cz-interactive-map-loa'),
 );
