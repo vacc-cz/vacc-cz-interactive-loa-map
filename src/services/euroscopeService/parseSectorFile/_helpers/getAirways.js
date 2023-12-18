@@ -23,12 +23,16 @@ export const getAirways = (rawDataLines, navigationPoints) => {
       airways[name] = [];
     }
 
-    airways[name].push({
-      latitudeEnd: getResolvedCoordinateInDegDec(latitudeEnd, 'latitude', navigationPoints),
-      latitudeStart: getResolvedCoordinateInDegDec(latitudeStart, 'latitude', navigationPoints),
-      longitudeEnd: getResolvedCoordinateInDegDec(longitudeEnd, 'longitude', navigationPoints),
-      longitudeStart: getResolvedCoordinateInDegDec(longitudeStart, 'longitude', navigationPoints),
-    });
+    try {
+      airways[name].push({
+        latitudeEnd: getResolvedCoordinateInDegDec(latitudeEnd, 'latitude', navigationPoints),
+        latitudeStart: getResolvedCoordinateInDegDec(latitudeStart, 'latitude', navigationPoints),
+        longitudeEnd: getResolvedCoordinateInDegDec(longitudeEnd, 'longitude', navigationPoints),
+        longitudeStart: getResolvedCoordinateInDegDec(longitudeStart, 'longitude', navigationPoints),
+      });
+    } catch (e) {
+      console.error(`Error while parsing airway ${name}!`, e);
+    }
   });
 
   return airways;

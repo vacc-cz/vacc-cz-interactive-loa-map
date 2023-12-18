@@ -18,13 +18,17 @@ export const getAirports = (rawDataLines) => {
       classAirspace,
     ] = rawDataLine.split(/\s+/g);
 
-    airports[name] = {
-      classAirspace,
-      latitude: transformCoordinateToDegDec(latitude),
-      longitude: transformCoordinateToDegDec(longitude),
-      name,
-      towerFrequency,
-    };
+    try {
+      airports[name] = {
+        classAirspace,
+        latitude: transformCoordinateToDegDec(latitude),
+        longitude: transformCoordinateToDegDec(longitude),
+        name,
+        towerFrequency,
+      };
+    } catch (e) {
+      console.error(`Error while parsing airport ${name}!`, e);
+    }
   });
 
   return airports;

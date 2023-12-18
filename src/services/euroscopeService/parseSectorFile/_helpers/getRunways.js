@@ -26,17 +26,21 @@ export const getRunways = (rawDataLines) => {
       runways[airport] = [];
     }
 
-    runways[airport].push({
-      airport,
-      oppositeRunway,
-      oppositeRunwayHeading,
-      oppositeRunwayLatitude: transformCoordinateToDegDec(oppositeRunwayLatitude),
-      oppositeRunwayLongitude: transformCoordinateToDegDec(oppositeRunwayLongitude),
-      runway,
-      runwayHeading,
-      runwayLatitude: transformCoordinateToDegDec(runwayLatitude),
-      runwayLongitude: transformCoordinateToDegDec(runwayLongitude),
-    });
+    try {
+      runways[airport].push({
+        airport,
+        oppositeRunway,
+        oppositeRunwayHeading,
+        oppositeRunwayLatitude: transformCoordinateToDegDec(oppositeRunwayLatitude),
+        oppositeRunwayLongitude: transformCoordinateToDegDec(oppositeRunwayLongitude),
+        runway,
+        runwayHeading,
+        runwayLatitude: transformCoordinateToDegDec(runwayLatitude),
+        runwayLongitude: transformCoordinateToDegDec(runwayLongitude),
+      });
+    } catch (e) {
+      console.error(`Error while parsing runway ${runway}!`, e);
+    }
   });
 
   return runways;

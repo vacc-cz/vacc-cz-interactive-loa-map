@@ -16,11 +16,15 @@ export const getFixes = (rawDataLines) => {
       longitude,
     ] = rawDataLine.split(/\s+/g);
 
-    fixes[name] = {
-      latitude: transformCoordinateToDegDec(latitude),
-      longitude: transformCoordinateToDegDec(longitude),
-      name,
-    };
+    try {
+      fixes[name] = {
+        latitude: transformCoordinateToDegDec(latitude),
+        longitude: transformCoordinateToDegDec(longitude),
+        name,
+      };
+    } catch (e) {
+      console.error(`Error parsing fix ${name}: ${e.message}`);
+    }
   });
 
   return fixes;

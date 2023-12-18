@@ -17,12 +17,16 @@ export const getVor = (rawDataLines) => {
       longitude,
     ] = rawDataLine.split(/\s+/g);
 
-    vor[name] = {
-      frequency,
-      latitude: transformCoordinateToDegDec(latitude),
-      longitude: transformCoordinateToDegDec(longitude),
-      name,
-    };
+    try {
+      vor[name] = {
+        frequency,
+        latitude: transformCoordinateToDegDec(latitude),
+        longitude: transformCoordinateToDegDec(longitude),
+        name,
+      };
+    } catch (e) {
+      console.error(`Error while parsing VOR ${name}!`, e);
+    }
   });
 
   return vor;

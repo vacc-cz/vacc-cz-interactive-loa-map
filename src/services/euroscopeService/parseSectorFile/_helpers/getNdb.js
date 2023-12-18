@@ -17,12 +17,16 @@ export const getNdb = (rawDataLines) => {
       longitude,
     ] = rawDataLine.split(/\s+/g);
 
-    ndb[name] = {
-      frequency,
-      latitude: transformCoordinateToDegDec(latitude),
-      longitude: transformCoordinateToDegDec(longitude),
-      name,
-    };
+    try {
+      ndb[name] = {
+        frequency,
+        latitude: transformCoordinateToDegDec(latitude),
+        longitude: transformCoordinateToDegDec(longitude),
+        name,
+      };
+    } catch (e) {
+      console.error(`Error while parsing NDB ${name}!`, e);
+    }
   });
 
   return ndb;

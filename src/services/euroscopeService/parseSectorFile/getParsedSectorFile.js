@@ -30,9 +30,9 @@ export const getParsedSectorFile = (sectorFileData) => {
   const sectorFileRawData = getRawSectorFileData(sectorFileData);
   const definitions = getDefinitions(sectorFileRawData['#define']);
 
-  const fixes = getFixes(sectorFileRawData.FIXES);
-  const ndb = getNdb(sectorFileRawData.NDB);
-  const vor = getVor(sectorFileRawData.VOR);
+  const fixes = sectorFileRawData.FIXES ? getFixes(sectorFileRawData.FIXES) : null;
+  const ndb = sectorFileRawData.NDB ? getNdb(sectorFileRawData.NDB) : null;
+  const vor = sectorFileRawData.VOR ? getVor(sectorFileRawData.VOR) : null;
   const navigationPoints = {
     ...fixes,
     ...ndb,
@@ -41,15 +41,15 @@ export const getParsedSectorFile = (sectorFileData) => {
 
   return {
     _definitions: definitions,
-    airports: getAirports(sectorFileRawData.AIRPORT),
-    airwaysHigh: getAirways(sectorFileRawData['HIGH AIRWAY'], navigationPoints),
-    airwaysLow: getAirways(sectorFileRawData['LOW AIRWAY'], navigationPoints),
-    artcc: getArtcc(sectorFileRawData.ARTCC, navigationPoints, definitions),
-    artccHigh: getArtcc(sectorFileRawData['ARTCC HIGH'], navigationPoints, definitions),
-    artccLow: getArtcc(sectorFileRawData['ARTCC LOW'], navigationPoints, definitions),
+    airports: sectorFileRawData.AIRPORT ? getAirports(sectorFileRawData.AIRPORT) : null,
+    airwaysHigh: sectorFileRawData['HIGH AIRWAY'] ? getAirways(sectorFileRawData['HIGH AIRWAY'], navigationPoints) : null,
+    airwaysLow: sectorFileRawData['LOW AIRWAY'] ? getAirways(sectorFileRawData['LOW AIRWAY'], navigationPoints) : null,
+    artcc: sectorFileRawData.ARTCC ? getArtcc(sectorFileRawData.ARTCC, navigationPoints, definitions) : null,
+    artccHigh: sectorFileRawData['ARTCC HIGH'] ? getArtcc(sectorFileRawData['ARTCC HIGH'], navigationPoints, definitions) : null,
+    artccLow: sectorFileRawData['ARTCC LOW'] ? getArtcc(sectorFileRawData['ARTCC LOW'], navigationPoints, definitions) : null,
     fixes,
     ndb,
-    runways: getRunways(sectorFileRawData.RUNWAY),
+    runways: sectorFileRawData.RUNWAY ? getRunways(sectorFileRawData.RUNWAY) : null,
     vor,
   };
 };
