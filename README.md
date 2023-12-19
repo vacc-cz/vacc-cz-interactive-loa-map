@@ -63,8 +63,8 @@ Two configuration files are used:
             * `note` _(string)_[optional]_ - Note
 * `boundaryPoints`  _(array)_ - Boundary to be rendered as button
     * `name` _(string)_ - Label of the button
-    * `latitude` _(string)_ - Latitude where the button is rendered
-    * `longitude` _(string)_ - Longitude where the button is rendered
+    * `latitude` _(string)_ - Latitude where the button is rendered (format: `N049.80.00.000`)
+    * `longitude` _(string)_ - Longitude where the button is rendered (format: `E013.30.00.000`)
     * `coordination` _(object)_
         * `data` _(array)_ - Points of the coordination 
             * `type` _(string)_ - Type  {`departure`, `arrival`}
