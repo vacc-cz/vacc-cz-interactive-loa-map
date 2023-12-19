@@ -14,3 +14,6 @@ npm-debug.log*
 
 # Project specific
 /public
+
+# Config files
+/config/*.*

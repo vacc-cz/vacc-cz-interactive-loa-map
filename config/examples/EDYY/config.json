@@ -1,0 +1,122 @@
+{
+  "dimensions": {
+    "width": 925,
+    "height": 550
+  },
+  "viewport": {
+    "minLatitude": 48.5,
+    "maxLatitude": 55.5,
+    "minLongitude": 1,
+    "maxLongitude": 14
+  },
+  "airspaces": {
+    "primary": [
+      {
+        "name": "EDYY_C",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_D",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_H",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_K",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_L",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_M",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_N",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_O",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_R",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDYY_S",
+        "type": "artccHigh"
+      }
+    ],
+    "secondary": [
+      {
+        "name": "EDUU_A",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_FFM",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_FUL",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_H",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_NTM",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_O",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_P",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_R",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_SLN",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_TGO",
+        "type": "artccHigh"
+      },
+      {
+        "name": "EDUU_WUR",
+        "type": "artccHigh"
+      },
+      {
+        "name": "LFEE",
+        "type": "artccHigh"
+      },
+      {
+        "name": "LTC",
+        "type": "artccHigh"
+      },
+      {
+        "name": "LON",
+        "type": "artccHigh"
+      }
+    ],
+    "other": [
+      {
+        "name": "EDDF_APP",
+        "type": "artcc"
+      }
+    ]
+  },
+  "points": [],
+  "boundaryPoints": []
+}
